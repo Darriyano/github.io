@@ -16,9 +16,10 @@ body {
     font-size: 30px;
 }
 
-.main-container h1, div {
+.main-container h1, img, p, h2 {
     justify-content: center;
 }
+
 
 .image {
     margin-top: 20px;
@@ -27,6 +28,7 @@ body {
 }
 
 .altText {
+    margin-top: 20px;
     padding-right: 50px;
     padding-left: 50px;
 }
