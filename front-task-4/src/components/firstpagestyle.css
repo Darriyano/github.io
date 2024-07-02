@@ -1,0 +1,88 @@
+.photo_main {
+    margin-left: 106px;
+    position: absolute;
+    top: 111px;
+    width: 537px;
+    height: 775px;
+}
+
+.main_menu {
+    position: absolute;
+    background-color: #17181A;
+    text-align: right;
+    margin-right: 70px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menu {
+    position: absolute;
+    width: max-content;
+    background-color: #17181A;
+    margin-left: 650px;
+}
+
+.menu li {
+    font-family: Khand, serif;
+    background-color: #17181A;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 25px;
+    font-size: 45px;
+}
+
+.menu li a {
+    transition-duration: 0.5s;
+    text-decoration: none;
+    color: #EDEDED;
+}
+
+.menu li a:hover {
+    color: #40BA21;
+}
+
+#first-page {
+    background-color: #17181A;
+    width: 100%;
+    height: 1080px;
+
+}
+
+.first-container {
+    position: relative;
+}
+
+.top-text {
+    font-family: Khand;
+    color: #EDEDED;
+    position: absolute;
+    top: 372px;
+    left: 824px;
+    font-size: 70px;
+}
+
+.medium-text {
+    font-family: Khand;
+    color: #EDEDED;
+    position: absolute;
+    top: 445px;
+    left: 824px;
+    font-size: 90px;
+}
+
+.final-text {
+    font-family: Khand;
+    color: #EDEDED;
+    position: absolute;
+    top: 556px;
+    left: 1073px;
+    font-size: 70px;
+}
+
+
+span {
+    color: #40BA21;
+}
+
