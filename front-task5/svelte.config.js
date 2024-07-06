@@ -11,7 +11,7 @@ const config = {
     },
   },
   paths: {
-    base: "/front-task5/",
+    base: process.env.NODE_ENV === 'production' ? '/front-task5' : ''
   },
 }
 
